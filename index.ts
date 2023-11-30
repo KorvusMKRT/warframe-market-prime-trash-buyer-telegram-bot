@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path: '.env.local'});
 import { off } from 'process';
 import { Telegraf, Context, Markup } from 'telegraf';
 import { getAllCoolOrders, getMessages } from "warframe-market-prime-trash-buyer"
